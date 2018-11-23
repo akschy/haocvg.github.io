@@ -3,9 +3,6 @@
   margin: 0 0;
   padding: 0 0;
 }
-div {
-  border: 1px solid rgba(255, 0, 0, 0);
-}
 
 html {
   height: 100%;
@@ -15,6 +12,7 @@ html {
   position: relative;
 }
 #header {
+  overflow: hidden;
   background: url(static/images/HamersleyGorge_ZH-CN6901064951_1920x1080.jpg)
     no-repeat center 0;
   background-size: 100% auto;
